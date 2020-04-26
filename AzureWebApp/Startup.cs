@@ -32,7 +32,7 @@ namespace AzureWebApp
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World Commit!");
+                    await context.Response.WriteAsync("Hello World Commit! azdevops 1");
                 });
             });
         }
